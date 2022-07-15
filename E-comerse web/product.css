@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat',sans-serif;
+}
+
+#top-bar{
+    display:flex;
+    justify-content: space-around;
+    box-shadow: 2px 4px 2px  rgb(17 16 16/50%);
+    padding: 15px 0;
+    min-height: 10vh;
+    z-index: 5;
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+    border-width: 0ch;
+}
+
+
+@media  screen and (max-width: 400px) {
+
+    #top-bar {
+        display: flex;
+        flex-direction: column;
+        margin: 10px 0px;
+        margin-top: 0px;
+    }
+    .nav-links li a {
+        margin: 10px;
+    }
+
+}
+
+
+.logo a{
+    text-decoration: none;
+    color: #000;
+}
+.logo a h4{
+    font-size: 30px;
+    font-weight: 100;
+    cursor: pointer;
+    margin-top: 0px;
+}
+.logo a h4 span {
+    color: #009688;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    width: 30%;
+    padding-top: 8px;
+}
+.nav-links li a {
+    text-decoration: none;
+    font-size: 14px;
+    color: rgb(27,25,25);
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.nav-links li a:hover{
+    color: #009688;
+}
+.input {
+    height: 20px;
+    width: 15%;
+    margin-top: 10px;
+}
+.icons {
+    display: flex;
+    color: rgb(27,25,25);
+}
+.icons i {
+    padding-top: 8px;
+    font-size: 22px;
+    cursor: pointer;
+    margin-right: 50px;
+}
+.icons .cart {
+    position: relative;
+}
+.icons .cart a {
+    color: rgb(27,25,25);
+}
+.icons .cart a span {
+    color: #fff;
+    background-color: #009688;
+    border-radius: 50%;
+    font-size: 14px;
+    padding: 5px 8px;
+    position: absolute;
+    top: 0;
+}
+
+#product {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.left-column {
+    width: 40%;
+    margin-top: 20px;
+}
+.left-column img {
+    width: 100%;
+    margin-top: 50px;
+}
+.right-column {
+    width: 60%;
+    margin-top: 40px;
+    padding-left: 30px;
+}
+.product-description {
+    margin-bottom: 40px;
+}
+.product-description h1 {
+    font-weight: 300;
+    font-size: 44px;
+    margin-top: 25px;
+    letter-spacing: -2px;
+}
+.product-description h4 {
+    margin-top: 20px;
+    font-weight: 200;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: rgb(27, 25, 25);
+}
+.product-description h3 {
+    margin-top: 20px;
+    font-weight: 200;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: rgb(27, 25, 25);
+}
+.product-description h3 span {
+    color: #009688;
+    font-weight: bold;
+}
+.product-description p {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #86939e;
+}
+.product-preview .previewImg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-top: 20px;
+}
+.product-preview .previewImg img {
+    margin: 5px;
+    width: 15%;
+    height: 30%;
+    cursor: pointer;
+    padding: 4px;
+    border-radius: 6px;
+}
+.active{
+    border: 2px solid #009688;
+}
+.btn button {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    padding: 10px 20px;
+    letter-spacing: 2px;
+    background-color: #009688;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 2px 10px rgb(0 0 0 / 50%);
+}
+
+
+footer {
+    background-color: black;
+    height: 200px;
+    padding: 30px;
+    width: 100%;
+    margin-top: 10%;
+    margin-bottom: -4px;
+    margin-left: -10px;
+    margin-right: -10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+footer ul li {
+    text-decoration: none;
+    color: #b8b8b8;
+    font-size: 18px;
+    list-style: none;
+}
+
+footer ul li :hover{
+    color: #009688;
+}
+
+footer ul li a {
+    text-decoration: none; 
+    color: #b8b8b8;
+    font-size: 18px;
+    margin: 5px 5px;
+}
+footer ul li h3 {
+    text-decoration: none;
+    color: #dcdcdc;
+    font-size: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.projectLogo{
+    height: 80px;
+    margin-top: 70px;
+}
+
+@media  screen and (max-width: 600px) {
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        height: auto;
+    }
+
+    footer ul {
+        width: 50%;
+        margin-bottom: 50px;
+    }
+}

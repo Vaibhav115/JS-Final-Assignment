@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/3416477e81.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+
+    <title>SHOPLANE- A Place For Shopping</title>
+</head>
+
+<body>
+    <header>
+        <div id="top-bar">
+            <div class="logo">
+                <a href="#index.html">
+                    <h4>
+                        <span>SHOP</span>LANE
+
+                    </h4>
+                </a>
+            </div>
+
+            <ul class="nav-links">
+                <li>
+                    <a href="#clothing-section">Clothing</a>
+                </li>
+                <li>
+                    <a href="#accessory-section">Accessories</a>
+                </li>
+            </ul>
+
+            <input class="input" type="text" placeholder='search for Clothing and Accessories' />
+            <div class="icons">
+                <i class="fa fa-search"></i>
+                <div class="cart" id="cartIcon">
+                    <a href="./checkout.html">
+                        <i class="fa fa-shopping-cart">
+                            <span id="cart-count">0</span>
+
+                        </i>
+                    </a>
+                </div>
+                <i class="fa fa-user-circle-o"></i>
+            </div>
+        </div>
+    </header>
+
+    <div class="slider">
+
+        <div class="myslider" style="display: block;">
+            <img src="Img1.png" style="width: 100%; height:100%">
+        </div>
+
+        <div class="myslider">
+            <img src="Img2.png" style="width: 100%; height:100%">
+        </div>
+
+        <div class="myslider">
+            <img src="Img3.png" style="width: 100%; height:100%">
+        </div>
+
+        <div class="myslider">
+            <img src="Img4.png" style="width: 100%; height:100%">
+        </div>
+
+        <a class="prev">&#10094;</a>
+        <a class="next">&#10095;</a>
+
+        <div class="dotsbox" style="text-align: center;">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+
+    </div>
+
+    <section id="clothing-section">
+        <h2 class="section-heading">Clothing for Men and Women</h2>
+        <div class="card-container" id="clothingCards">
+
+        </div>
+        </div>
+    </section>
+    <section id="accessory-section">
+        <h2 class="section-heading">Accessories for Men and Women</h2>
+        <div class="card-container" id="accessoriesCards">
+    </section>
+
+    <footer>
+        <ul class="online">
+            <li>
+                <h3>Online Store</h3>
+            </li>
+            <li><a href="#/men Clothing">Men Clothing</a></li>
+            <li><a href="#/women Clothing">Women Clothing</a></li>
+            <li><a href="#/men Accessories">Men Accessories</a></li>
+            <li><a href="#/men Accessories">Women Accessories</a></li>
+        </ul>
+        <ul class="helpline">
+            <li>
+                <h3>Helpful Links</h3>
+            </li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <ul class="partner">
+            <li>
+                <h3>Patners</h3>
+            </li>
+            <li><a href="#">Zara</a></li>
+            <li><a href="#">Pantaloons</a></li>
+            <li><a href="#">Levis</a></li>
+            <li><a href="#">Ucb</a></li>
+            <li><a href="#">+ Many More</a></li>
+        </ul>
+        <ul class="address">
+            <li>
+                <h3>Address</h3>
+            </li>
+            <li>Bulding 102</li>
+            <li>Sangam villa</li>
+            <li>BA - 30231</li>
+            <li>United States</li>
+        </ul>
+
+        <div>
+            <img class="projectLogo" src="projectLogo.png">
+        </div>
+
+    </footer>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
